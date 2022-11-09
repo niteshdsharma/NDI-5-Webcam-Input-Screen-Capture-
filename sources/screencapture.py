@@ -32,7 +32,6 @@ try:
 
     os.chdir(app)
 
-    #print(os.getcwd())
 
     if  True==True:
 
@@ -194,7 +193,7 @@ try:
                     
         
         finaltxt=finaltxt+"7CGN"
-        #print(finaltxt)
+  
         f= open(fread_filename,"w")
         f.write(finaltxt)
         f.close()
